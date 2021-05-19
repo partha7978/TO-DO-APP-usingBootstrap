@@ -33,6 +33,9 @@ body, html {
 .card-footer {
    width: 24em;
 }
+.container {
+    overflow-y: auto;
+}
 /* ul{
     position: absolute;
     top: 20px;

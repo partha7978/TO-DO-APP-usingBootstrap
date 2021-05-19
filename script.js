@@ -5,7 +5,7 @@ let remove = document.getElementById("buttonDelete");
 var li = document.querySelectorAll("li");
 let list = document.querySelector("ul").getElementsByTagName("li");
 
-button.addEventListener("click", function() {
+const addAfterClick = () => {
     if(input.value.length > 0) {
         var li = document.createElement("li");
         li.classList.add("list-group-item");
@@ -13,9 +13,9 @@ button.addEventListener("click", function() {
         ul.appendChild(li);
         input.value = "";
     }
-})
+}
 
-input.addEventListener("keypress", function(event) {
+const addAfterKeypress = (event) => {
     if(input.value.length > 0 && event.keyCode === 13) {
         var li = document.createElement("li");
         li.classList.add("list-group-item");
@@ -23,16 +23,27 @@ input.addEventListener("keypress", function(event) {
         ul.appendChild(li);
         input.value = "";
     }
-})
+}
 
-
-
-//For Removal
-remove.addEventListener("click", function(event) {
-    if(Event.keyCode === 46) {
-
-    }
+const removeAfterClick = (event) => {
     var last = list[list.length - 1];
     last.parentNode.removeChild(last);
     console.log("list length", list.length);
-})
+}
+
+const removeAfterDeleteOrBackspace = (e) => {
+    const key = e.key;
+    if (key === "Backspace" || key === "Delete") {
+        var last = list[list.length - 1];
+        last.parentNode.removeChild(last);
+        console.log("list length", list.length);
+    }
+}
+
+button.addEventListener("click", addAfterClick);
+
+input.addEventListener("keypress", addAfterKeypress);
+
+remove.addEventListener("click", removeAfterClick);
+
+remove.addEventListener('keydown', removeAfterDeleteOrBackspace);

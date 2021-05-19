@@ -9,3 +9,10 @@ Using BootStrap 4 and simple Js
  When i add lot of lists then it doesn't have scroll functionality. I tried the overflow property but still it doesn't work. So fix this.
  Also you can modify the frontend part to beautify it. If you can add the card shadow effect to the card so that the card is easily visible throughout the webpage then 
  it's fine otherwise no issue. 
+
+
+
+NEW ISSUE DETECTED ---19-may-2021---
+    When i add the lists then when i click on backspace or delete button then it is not deleting. I have to press the remove button once the  the backspace and the remove button works. Fix this issue.
+
+
