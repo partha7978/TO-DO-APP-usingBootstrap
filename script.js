@@ -12,6 +12,12 @@ const addAfterClick = () => {
         li.appendChild(document.createTextNode(input.value));
         ul.appendChild(li);
         input.value = "";
+
+        //for delete button in every li element
+        let btn = document.createElement("button");
+        btn.classList.add("btn", "btn-outline-warning");
+        li.appendChild(btn);
+        btn.textContent = "Delete";
     }
 }
 
@@ -22,6 +28,12 @@ const addAfterKeypress = (event) => {
         li.appendChild(document.createTextNode(input.value));
         ul.appendChild(li);
         input.value = "";
+
+        //for delete button in every li element
+        let btn = document.createElement("button");
+        btn.classList.add("btn", "btn-outline-warning");
+        li.appendChild(btn);
+        btn.textContent = "Delete";
     }
 }
 
