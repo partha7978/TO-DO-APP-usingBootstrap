@@ -16,3 +16,9 @@ NEW ISSUE DETECTED ---19-may-2021---
     When i add the lists then when i click on backspace or delete button then it is not deleting. I have to press the remove button once the  the backspace and the remove button works. Fix this issue.
 
 I have already added the overflow-y property on container but the scroll effect on li elements still not working. Fix this also.
+
+
+
+----20 may-----
+I have added the buttons to each lists.
+Later I'll be add the delete functionality to each list buttons.
