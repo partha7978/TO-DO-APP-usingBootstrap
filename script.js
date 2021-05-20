@@ -21,6 +21,7 @@ const addAfterClick = () => {
     }
 }
 
+
 const addAfterKeypress = (event) => {
     if(input.value.length > 0 && event.keyCode === 13) {
         var li = document.createElement("li");
