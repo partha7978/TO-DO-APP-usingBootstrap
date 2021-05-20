@@ -37,7 +37,6 @@ body, html {
     overflow-y: auto;
 /*     Still the scroll effect on li element not working  */
 }
-
 .btn-outline-warning {
     float: right;
 }
