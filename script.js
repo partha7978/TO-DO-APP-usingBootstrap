@@ -41,8 +41,6 @@ const addAfterKeypress = (event) => {
 
         //Delete functionality
         btn.onclick = removeAfterLiButton;
-
-
     }
 }
 

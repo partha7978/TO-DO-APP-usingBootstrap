@@ -2,7 +2,7 @@
 A simple to-do-app 
 Using BootStrap 4 and simple Js
 
-1. I will be add delete button to each li element.
+1. I will be add delete button to each li element.(completed 21-may)
 2. Also, I'll add the toggle function to each li element.
 
 ---Issue you have to fix---
@@ -24,4 +24,6 @@ I have added the buttons to each lists.
 Later I'll be add the delete functionality to each list buttons.
 
 -21 may-
-Adding the delete functionality to each li buttons
+Adding the delete functionality to each li buttons.
+
+Later I'll add the toggle functionality to every li element
