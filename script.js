@@ -18,6 +18,11 @@ const addAfterClick = () => {
         btn.classList.add("btn", "btn-outline-warning");
         li.appendChild(btn);
         btn.textContent = "Delete";
+
+        //Delete functionality
+        btn.onclick = function(e) {
+            e.target.parentNode.remove();
+        }
     }
 }
 
@@ -35,8 +40,16 @@ const addAfterKeypress = (event) => {
         btn.classList.add("btn", "btn-outline-warning");
         li.appendChild(btn);
         btn.textContent = "Delete";
+
+        //Delete functionality
+        btn.onclick = function(e) {
+            e.target.parentNode.remove();
+        }
+
     }
 }
+
+
 
 const removeAfterClick = (event) => {
     var last = list[list.length - 1];
