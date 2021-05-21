@@ -20,9 +20,7 @@ const addAfterClick = () => {
         btn.textContent = "Delete";
 
         //Delete functionality
-        btn.onclick = function(e) {
-            e.target.parentNode.remove();
-        }
+        btn.onclick = removeAfterLiButton;
     }
 }
 
@@ -42,14 +40,15 @@ const addAfterKeypress = (event) => {
         btn.textContent = "Delete";
 
         //Delete functionality
-        btn.onclick = function(e) {
-            e.target.parentNode.remove();
-        }
+        btn.onclick = removeAfterLiButton;
+
 
     }
 }
 
-
+const removeAfterLiButton = (e) => {
+    e.target.parentNode.remove();
+}
 
 const removeAfterClick = (event) => {
     var last = list[list.length - 1];
