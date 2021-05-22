@@ -42,13 +42,20 @@ body, html {
     float: right;
 }
 
+h1, h2 {
+    color: rgb(0, 0, 0);
+}
+
+h1:hover, h2:hover {
+   color:aqua;
+}
 
 
 /* footer section starts */
-.footer{
+/* .footer{
     margin-top: 408px;
     padding: 0;
-    /* display: flex; */
+ 
     justify-content: center;
     align-items: center;
     background-color: rgb(49, 41, 49);
@@ -76,4 +83,4 @@ p{
     align-items: center;
     justify-content: center;
     color: rgb(121, 118, 113);
-}
+} */
