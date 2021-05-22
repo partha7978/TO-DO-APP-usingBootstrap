@@ -43,8 +43,10 @@ body, html {
 }
 
 
+
+/* footer section starts */
 .footer{
-    margin-top: 331px;
+    margin-top: 408px;
     padding: 0;
     /* display: flex; */
     justify-content: center;
