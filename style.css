@@ -50,37 +50,3 @@ h1:hover, h2:hover {
    color:aqua;
 }
 
-
-/* footer section starts */
-/* .footer{
-    margin-top: 408px;
-    padding: 0;
- 
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(49, 41, 49);
-}
-.footer-list{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-   
-}
-.footer-li-element{
-    padding: 4px 13px;
-}
-.footer-link{
-    text-decoration: none;
-    color: rgb(121, 118, 113);
-}
-.footer-link:hover {
-    color:aliceblue;
-    text-decoration: none;
-}
-p{  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(121, 118, 113);
-} */
