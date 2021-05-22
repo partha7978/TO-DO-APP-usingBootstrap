@@ -22,6 +22,10 @@ const addAfterClick = () => {
         //Delete functionality
         btn.onclick = removeAfterLiButton;
     }
+    else
+    {
+        alert("Please add some lists");
+    }
 }
 
 
@@ -42,6 +46,7 @@ const addAfterKeypress = (event) => {
         //Delete functionality
         btn.onclick = removeAfterLiButton;
     }
+    
 }
 
 const removeAfterLiButton = (e) => {
