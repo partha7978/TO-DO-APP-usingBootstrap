@@ -60,7 +60,9 @@ h1:hover, h2:hover {
 
 }
 
-
+::placeholder {
+    color:rgb(86, 141, 141);
+}
 
 footer {
     margin-top: 460px;
