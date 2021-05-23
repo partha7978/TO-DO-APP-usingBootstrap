@@ -20,11 +20,14 @@ I have already added the overflow-y property on container but the scroll effect 
 
 
 ----20 may-----
-I have added the buttons to each lists. 
-Later I'll be add the delete functionality to each list buttons. 
+I have added the buttons to each lists. //completed
+Later I'll be add the delete functionality to each list buttons. //comnpleted
 
 -21 may-
 Adding the delete functionality to each li buttons.
 
 Later I'll add the toggle functionality to every li element
 
+--23 may---
+Adding small footer and placeholder color.
+Later I'll be make it responsive.
