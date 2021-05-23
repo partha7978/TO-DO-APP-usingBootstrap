@@ -75,3 +75,12 @@ input.addEventListener("keypress", addAfterKeypress);
 remove.addEventListener("click", removeAfterClick);
 
 remove.addEventListener('keydown', removeAfterDeleteOrBackspace);
+
+
+
+
+
+
+
+
+

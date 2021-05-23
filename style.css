@@ -6,6 +6,7 @@ body, html {
     width: 100%;
     margin:0px;
     font-family: 'Source Code Pro', monospace;
+    l
 }
 .card-footer {
     display: flex;
@@ -15,8 +16,11 @@ body, html {
     margin-left: 10px;
 }
 .container {
+
     min-width: 100%;
     background-image: linear-gradient(to right, rgb(3, 252, 236), rgb(255, 0, 162));
+
+    
 }
 .buffer{
     height: 10vh;
@@ -44,9 +48,22 @@ body, html {
 
 h1, h2 {
     color: rgb(0, 0, 0);
+    letter-spacing: 5px;
 }
 
 h1:hover, h2:hover {
    color:aqua;
+}
+
+#userinput {
+    cursor: pointer;
+
+}
+
+
+
+footer {
+    margin-top: 460px;
+    font-size: 0.6em;
 }
 
