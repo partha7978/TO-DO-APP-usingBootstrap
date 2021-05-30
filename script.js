@@ -1,5 +1,5 @@
 let input = document.getElementById("userinput");
-let button = document.getElementById("buttonAdd")
+let button = document.getElementById("buttonAdd");
 let ul = document.querySelector("ul");
 let remove = document.getElementById("buttonDelete");
 var li = document.querySelectorAll("li");
@@ -9,6 +9,7 @@ const addAfterClick = () => {
     if(input.value.length > 0) {
         var li = document.createElement("li");
         li.classList.add("list-group-item");
+        li.classList.add("listColor");
         li.appendChild(document.createTextNode(input.value));
         ul.appendChild(li);
         input.value = "";
