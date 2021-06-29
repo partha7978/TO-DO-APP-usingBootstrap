@@ -67,10 +67,6 @@ footer {
     font-size: 0.6em;
 }
 
-/* for toggle */
-.done {
-    text-decoration: line-through;
-}
 
 /* li color */
 .listColor {
@@ -79,9 +75,18 @@ footer {
 
 }
 
+/* for toggle */
+.done {
+    text-decoration: line-through;
+    color: green;
+    font-weight:700;
+}
+
+
 /* For Responsive */
 @media only screen and (max-width: 420px) {
     .card {
         width: 15rem;
     }
 }
+
