@@ -67,10 +67,21 @@ footer {
     font-size: 0.6em;
 }
 
+/* for toggle */
+.done {
+    text-decoration: line-through;
+}
 
 /* li color */
 .listColor {
     background-color: #d5fefd;
     background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
 
+}
+
+/* For Responsive */
+@media only screen and (max-width: 420px) {
+    .card {
+        width: 15rem;
+    }
 }

@@ -6,13 +6,14 @@ var li = document.querySelectorAll("li");
 let list = document.querySelector("ul").getElementsByTagName("li");
 
 const addAfterClick = () => {
-    if(input.value.length > 0) {
+    if(input.value.length > 0) { 
         var li = document.createElement("li");
         li.classList.add("list-group-item");
         li.classList.add("listColor");
         li.appendChild(document.createTextNode(input.value));
         ul.appendChild(li);
         input.value = "";
+
 
         //for delete button in every li element
         let btn = document.createElement("button");
@@ -70,6 +71,8 @@ const removeAfterDeleteOrBackspace = (e) => {
     }
 }
 
+
+
 button.addEventListener("click", addAfterClick);
 
 input.addEventListener("keypress", addAfterKeypress);
@@ -80,9 +83,9 @@ remove.addEventListener('keydown', removeAfterDeleteOrBackspace);
 
 
 
-
-
-
-
-
-
+// For toggle
+ul.addEventListener('click', () => {
+    let target = event.target;
+    target.classList.toggle('done');
+    console.log('target value', target);
+})
