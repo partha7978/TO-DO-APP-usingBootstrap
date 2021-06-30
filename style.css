@@ -24,9 +24,15 @@ body, html {
     height: 10vh;
 }
 
-
+.list-group {
+    box-shadow: 0 0 20px rgba(10, 10, 10, 0.45);
+}
 .list-group-item {
     background-color: blue;
+   
+}
+.list-group-item:hover {
+    cursor: pointer;
 }
 .btn-outline-danger {
     margin-left: 10px;
@@ -34,7 +40,10 @@ body, html {
 
 .card-footer {
    width: 24em;
-  box-shadow: 0 0 20px rgba(10, 10, 10, 0.45);
+ 
+}
+.card-footer:hover {
+    box-shadow: 0 0 20px rgba(10, 10, 10, 0.45);
 }
 .container {
     overflow-y: auto;
