@@ -34,6 +34,7 @@ body, html {
 
 .card-footer {
    width: 24em;
+  box-shadow: 0 0 20px rgba(10, 10, 10, 0.45);
 }
 .container {
     overflow-y: auto;
@@ -88,5 +89,6 @@ footer {
     .card {
         width: 15rem;
     }
+   
 }
 

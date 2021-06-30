@@ -87,5 +87,6 @@ remove.addEventListener('keydown', removeAfterDeleteOrBackspace);
 ul.addEventListener('click', () => {
     let target = event.target;
     target.classList.toggle('done');
+    li.appendChild(document.createTextNode('completed'));
     console.log('target value', target);
 })
